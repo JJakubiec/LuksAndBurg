@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+	  <meta charset="UTF-8">
+	  <title>LUKS AND BURG</title>
+	  <link rel="stylesheet" href="./assets/css/style.css">
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	  
+	</head>
+	<body>
+		<div class="container">
+			
+		  <div class="welcome-sign"></div>
+		  
+		  <div class="right">
+			<a data-text="aboutUs" href="#">ABOUT US</a>
+			<a data-text="menu" href="#">MENU</a>
+			<a data-text="specialOffers" href="#">SPECIAL OFFERS</a>
+			<a data-text="contactUs" href="#">CONTACT US</a>
+		  </div>
+		  
+		  <div class="left">
+			  <div id="aboutUs" class="menuAttr">
+					<h2>About us</h2>
+					<div class="container about-us">
+						<div class="about-us-item">
+							<h3>Welcome Luks And Burg</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio fugit voluptatibus
+								deleniti doloribus placeat, amet quaerat voluptas eum labore quisquam aut soluta, neque libero
+								dignissimos, nesciunt minus! Blanditiis, dignissimos.
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio fugit voluptatibus
+								deleniti doloribus placeat, amet quaerat voluptas eum labore quisquam aut soluta, neque libero
+								dignissimos, nesciunt minus! Blanditiis, dignissimos.
+								<a class="white-button" href="#">Read more</a>
+							</p>
+						</div>
+						<div class="about-us-item">
+							<img src="assets/images/burger-cut.png" alt="Burger" />
+						</div>
+						<div class="about-us-item">
+							<img src="assets/images/meal-burger.jpg" alt="Meal burger" />
+						</div>
+						<div class="about-us-item">
+							<h3>Wonderful Food</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio fugit voluptatibus
+								deleniti doloribus placeat, amet quaerat voluptas eum labore quisquam aut soluta, neque libero
+								dignissimos, nesciunt minus! Blanditiis, dignissimos.
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio fugit voluptatibus
+								deleniti doloribus placeat, amet quaerat voluptas eum labore quisquam aut soluta, neque libero
+								dignissimos, nesciunt minus! Blanditiis, dignissimos.
+								<a class="white-button" href="#">Read more</a>
+							</p>
+						</div>
+					</div>
+			  </div>
+			  <div id="menu" class="menuAttr">
+			  <h2>Menu</h2>
+				<div class="container products">
+					<div class="product">
+						<img src="assets/images/products/burger1.jpg" alt="Double cheese burger" />
+						<h3>Double cheese Burger</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, vitae, placeat mollitia
+							ipsa omnis, facilis aliquid cumque sapiente veniam earum recusandae saepe!
+						</p>
+						<p class="price">$8.00</p>
+						<a href="#products" class="red-button">Order Now</a>
+					</div>
+					<div class="product">
+						<img src="assets/images/products/burger2.jpg" alt="Bacon double burger" />
+						<h3>Bacon double burger</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, vitae, placeat mollitia
+							ipsa omnis, facilis aliquid cumque sapiente veniam earum recusandae saepe!
+						</p>
+						<p class="price">$5.00</p>
+						<a href="#products" class="red-button">Order Now</a>
+					</div>
+					<div class="product">
+						<img src="assets/images/products/burger5.jpg" alt="Vegan burger" />
+						<h3>Vegan burger</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, vitae, placeat mollitia
+							ipsa omnis, facilis aliquid cumque sapiente veniam earum recusandae saepe!
+						</p>
+						<p class="price">$7.00</p>
+						<a href="#products" class="red-button">Order Now</a>
+					</div>
+				</div>
+			  </div>
+			  <div id="specialOffers" class="menuAttr">
+			  <h2>Special offers</h2>
+				<div class="container products">
+					<div class="product">
+						<img src="assets/images/products/burger1.jpg" alt="Special offer" />
+						<h3>Special offer</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, vitae, placeat mollitia
+							ipsa omnis, facilis aliquid cumque sapiente veniam earum recusandae saepe!
+						</p>
+						<p class="price">$10.00</p>
+						<a href="#products" class="red-button">Order Now</a>
+					</div>
+				</div>
+			  </div>
+			  <div id="contactUs" class="menuAttr">
+				<h2>Contact us</h2>
+					<div class="container">
+						<div class="contact">
+							<h3>Leave us a message</h3>
+							<div id="form-contact-status" class=""></div>
+							<form id="form-contact" class="form-contact" method="POST" action="https://formspree.io/f/xknpkkrp">
+								<div class="form-group required">
+									<label for="firstname">Firstname</label>
+									<input
+										type="text"
+										class="form-control"
+										id="firstname"
+										name="firstname"
+										pattern="[0-9a-zA-Z -]{2,}"
+										required/>
+								</div>
+								<div class="form-group required">
+									<label for="email">Email</label>
+									<input type="email" class="form-control" id="email" name="email" required />
+								</div>
+								<div class="form-group required">
+									<label for="subject">Subject</label>
+									<input
+										type="text"
+										class="form-control"
+										id="subject"
+										name="subject"
+										pattern="^.{2,}"
+										required
+									/>
+								</div>
+								<div class="form-group required">
+									<label for="message">Message</label>
+									<textarea id="message" name="message" class="form-control" required></textarea>
+								</div>
+								<div class="form-group">
+									<input id="form-contact-button" type="submit" value="Send message" />
+								</div>
+							</form>
+						</div>
+					</div>
+			  </div>
+		  </div>
+		  
+		  <div id="menuBtn">
+			<input type="checkbox" />
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		  </div>
+		  
+		</div>
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+		<script  src="./assets/js/script.js"></script>
+
+	</body>
+</html>
